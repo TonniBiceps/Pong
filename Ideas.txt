@@ -1,0 +1,5 @@
+PONG
+
+Objects: ball, sliderRight, sliderLeft
+Scoresystem
+Slidercontrols/movement
