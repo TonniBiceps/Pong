@@ -1,28 +1,7 @@
 
-
-
-void setup(){
-
-fullScreen();
-
-
-
-
-
+void setup() {
+  fullScreen();
 }
 
-
-
-void draw(){
-
-
-
-
-
-
-
-
-
-
-
+void draw() {
 }
