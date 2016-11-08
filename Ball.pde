@@ -1,14 +1,24 @@
 class ball {
-  ball() {
-  }
-    float leftSliderX = width/100;
-    float leftSliderY = height/2;
-    float rightSliderX = width-(width/100);
-    float rightSliderY = height/2;
-    float sliderHeight = height/5;
+    
+    float leftSliderX;
+    float leftSliderY;
+    float rightSliderX;
+    float rightSliderY;
+    float sliderHeight;
 
+  
+  
+  ball() {
+    leftSliderX = width/100;
+    leftSliderY = height/2;
+    rightSliderX = width-(width/100);
+    rightSliderY = height/2;
+    sliderHeight = height/5;
+    
+  }
+   
   void Display() {
-    // Line in the middle 
+    // Line in the middle aka Ne
     float lineWidth = width/100;
     
     pushStyle();
