@@ -1,6 +1,8 @@
 ball gameBall;
 ball sliderLeft;
 ball sliderRight;
+slider sliders;
+boolean gameStart = false;
 
 void setup() {
   fullScreen();
@@ -14,23 +16,9 @@ void setup() {
 
 void draw() {
   background(0);
-  gameBall.Display();
-}
 
-void keyPressed() {
-  if (key == 'w' || key == 'W') {
-    ball.leftSliderY++;
-  }
-
-  if (key == 's' || key == 'S') {
-    ball.leftSliderY--;
-  } 
-
-  if (key == 'o' || key == 'O') {
-    ball.rightSliderY++;
-  }
-
-  if (key == 'k' || key == 'K') {
-    ball.rightSliderY--;
+  if (gameStart == true) {
+    gameBall.Display();
+    sliders.sliders();
   }
 }
